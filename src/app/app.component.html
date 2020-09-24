@@ -1,0 +1,6 @@
+<div class="container-sm">
+<h1>TicTacToe game</h1>
+<h2 *ngIf="notification">{{notification}}</h2>
+<app-board (changedBoard)="nextTurn($event)" (reset)="resetBoard()" [currentTurn]="currentTurn">
+</app-board>
+</div>

@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-4 {
+  width: 33%;
+  border: 1px solid;
+  box-sizing: border-box;
+  padding-bottom: 33%;
+  position: relative;
+  background-color: azure;
+}
+button {
+  margin: auto;
+  margin-top: 50px;
+  padding: 1em 3em;
+  border: 1px solid red;
+  background-color: red;
+  font-weight: bold;
+  color: white;
+}
+button:hover {
+  background-color: black;
+  border-color: black;
+}

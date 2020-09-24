@@ -1,0 +1,7 @@
+.square div {
+  font-size: 50px;
+  line-height: 1;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 20px);
+}

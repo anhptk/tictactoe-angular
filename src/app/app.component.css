@@ -1,0 +1,14 @@
+h1, h2 {
+  text-align: center;
+}
+h2 {
+  color: red;
+}
+app-board {
+  max-width: 500px;
+  margin: auto;
+}
+.container-sm {
+  max-width: 600px;
+  margin: auto;
+}

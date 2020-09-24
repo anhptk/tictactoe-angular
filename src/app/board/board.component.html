@@ -1,0 +1,12 @@
+
+<div class="row">
+  <app-cell *ngFor="let content of board; let i = index"
+  class="col-4" 
+  [content]="content" 
+  (click)="selectCell(i)">
+  </app-cell>
+</div>
+
+<div class="row">
+  <button *ngIf="!currentTurn" (click)="resetBoard()">Reset</button>
+</div>
