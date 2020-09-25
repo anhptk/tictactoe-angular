@@ -1,7 +1,7 @@
 
 <div class="row">
   <app-cell *ngFor="let content of board; let i = index"
-  class="col-4" 
+  class="col-4"
   [content]="content" 
   (click)="selectCell(i)">
   </app-cell>

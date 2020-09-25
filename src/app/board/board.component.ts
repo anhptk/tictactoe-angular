@@ -7,6 +7,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class BoardComponent implements OnInit {
   @Input() currentTurn: string;
+  @Input() winLine: number[];
   @Output() changedBoard = new EventEmitter<any>();
   @Output() reset = new EventEmitter<any>();
 
